@@ -1,0 +1,202 @@
+{
+  "phase1_morning": [
+    {
+      "timestamp": "2025-01-27T07:04:36.878108",
+      "checksum": "1ea38fa98caf9d808c545f18253bd0c7",
+      "backup_path": "app/data/backups/phase1_morning_20250127_070436.csv",
+      "archive_path": null,
+      "row_count": 4,
+      "column_count": 6
+    }
+  ],
+  "phase1_lunch": [
+    {
+      "timestamp": "2025-01-27T07:04:36.882009",
+      "checksum": "74a8155b84c2316ce595deff6677ed26",
+      "backup_path": "app/data/backups/phase1_lunch_20250127_070436.csv",
+      "archive_path": null,
+      "row_count": 3,
+      "column_count": 6
+    }
+  ],
+  "phase1_prebed": [
+    {
+      "timestamp": "2025-01-27T07:04:36.885705",
+      "checksum": "967057cbe64e2eb4c0670409b62c821c",
+      "backup_path": "app/data/backups/phase1_prebed_20250127_070436.csv",
+      "archive_path": null,
+      "row_count": 2,
+      "column_count": 6
+    }
+  ],
+  "phase2_morning": [
+    {
+      "timestamp": "2025-01-27T07:04:36.889469",
+      "checksum": "df467047a31eb7f41b16673ee2c34397",
+      "backup_path": "app/data/backups/phase2_morning_20250127_070436.csv",
+      "archive_path": null,
+      "row_count": 3,
+      "column_count": 6
+    }
+  ],
+  "phase2_lunch": [
+    {
+      "timestamp": "2025-01-27T07:04:36.892450",
+      "checksum": "ecba1ebc1aadd3b32ac9989e7ed21817",
+      "backup_path": "app/data/backups/phase2_lunch_20250127_070436.csv",
+      "archive_path": null,
+      "row_count": 2,
+      "column_count": 6
+    }
+  ],
+  "phase2_prebed": [
+    {
+      "timestamp": "2025-01-27T07:04:36.896785",
+      "checksum": "945e3bc4b49ee666b4edbe3b5e67d33d",
+      "backup_path": "app/data/backups/phase2_prebed_20250127_070436.csv",
+      "archive_path": null,
+      "row_count": 2,
+      "column_count": 6
+    }
+  ],
+  "phase3_morning": [
+    {
+      "timestamp": "2025-01-27T07:04:36.899600",
+      "checksum": "3b3095ee6bd898901546dcc5ca4d4197",
+      "backup_path": "app/data/backups/phase3_morning_20250127_070436.csv",
+      "archive_path": null,
+      "row_count": 2,
+      "column_count": 6
+    }
+  ],
+  "phase3_lunch": [
+    {
+      "timestamp": "2025-01-27T07:04:36.902361",
+      "checksum": "979a0cbe564b84047229fc7a582fb0f8",
+      "backup_path": "app/data/backups/phase3_lunch_20250127_070436.csv",
+      "archive_path": null,
+      "row_count": 2,
+      "column_count": 6
+    }
+  ],
+  "phase3_prebed": [
+    {
+      "timestamp": "2025-01-27T07:04:36.906846",
+      "checksum": "9c82f53249fac1c9393f8bdea8ef46eb",
+      "backup_path": "app/data/backups/phase3_prebed_20250127_070436.csv",
+      "archive_path": null,
+      "row_count": 2,
+      "column_count": 6
+    }
+  ],
+  "supplements": [
+    {
+      "timestamp": "2025-01-27T07:04:36.913514",
+      "checksum": "332987aa7203253aef2fe10a90b3b340",
+      "backup_path": "app/data/backups/supplements_20250127_070436.csv",
+      "archive_path": null,
+      "row_count": 3,
+      "column_count": 5
+    }
+  ],
+  "phase1_morning_df": [
+    {
+      "timestamp": "2025-01-27T07:08:19.903321",
+      "checksum": "1ea38fa98caf9d808c545f18253bd0c7",
+      "backup_path": null,
+      "archive_path": null,
+      "row_count": 4,
+      "column_count": 6
+    }
+  ],
+  "phase1_lunch_df": [
+    {
+      "timestamp": "2025-01-27T07:08:19.906123",
+      "checksum": "74a8155b84c2316ce595deff6677ed26",
+      "backup_path": null,
+      "archive_path": null,
+      "row_count": 3,
+      "column_count": 6
+    }
+  ],
+  "phase1_prebed_df": [
+    {
+      "timestamp": "2025-01-27T07:08:19.908650",
+      "checksum": "967057cbe64e2eb4c0670409b62c821c",
+      "backup_path": null,
+      "archive_path": null,
+      "row_count": 2,
+      "column_count": 6
+    }
+  ],
+  "phase2_morning_df": [
+    {
+      "timestamp": "2025-01-27T07:08:19.911206",
+      "checksum": "df467047a31eb7f41b16673ee2c34397",
+      "backup_path": null,
+      "archive_path": null,
+      "row_count": 3,
+      "column_count": 6
+    }
+  ],
+  "phase2_lunch_df": [
+    {
+      "timestamp": "2025-01-27T07:08:19.914157",
+      "checksum": "ecba1ebc1aadd3b32ac9989e7ed21817",
+      "backup_path": null,
+      "archive_path": null,
+      "row_count": 2,
+      "column_count": 6
+    }
+  ],
+  "phase2_prebed_df": [
+    {
+      "timestamp": "2025-01-27T07:08:19.916748",
+      "checksum": "945e3bc4b49ee666b4edbe3b5e67d33d",
+      "backup_path": null,
+      "archive_path": null,
+      "row_count": 2,
+      "column_count": 6
+    }
+  ],
+  "phase3_morning_df": [
+    {
+      "timestamp": "2025-01-27T07:08:19.919686",
+      "checksum": "3b3095ee6bd898901546dcc5ca4d4197",
+      "backup_path": null,
+      "archive_path": null,
+      "row_count": 2,
+      "column_count": 6
+    }
+  ],
+  "phase3_lunch_df": [
+    {
+      "timestamp": "2025-01-27T07:08:19.922441",
+      "checksum": "979a0cbe564b84047229fc7a582fb0f8",
+      "backup_path": null,
+      "archive_path": null,
+      "row_count": 2,
+      "column_count": 6
+    }
+  ],
+  "phase3_prebed_df": [
+    {
+      "timestamp": "2025-01-27T07:08:19.925024",
+      "checksum": "9c82f53249fac1c9393f8bdea8ef46eb",
+      "backup_path": null,
+      "archive_path": null,
+      "row_count": 2,
+      "column_count": 6
+    }
+  ],
+  "supplements_df": [
+    {
+      "timestamp": "2025-01-27T07:08:19.928355",
+      "checksum": "332987aa7203253aef2fe10a90b3b340",
+      "backup_path": null,
+      "archive_path": null,
+      "row_count": 3,
+      "column_count": 5
+    }
+  ]
+}

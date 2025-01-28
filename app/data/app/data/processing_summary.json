@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-01-27T07:08:19.928895",
+  "results": {
+    "phase1_morning_df": {
+      "success": true,
+      "rows": 4,
+      "columns": 6
+    },
+    "phase1_lunch_df": {
+      "success": true,
+      "rows": 3,
+      "columns": 6
+    },
+    "phase1_prebed_df": {
+      "success": true,
+      "rows": 2,
+      "columns": 6
+    },
+    "phase2_morning_df": {
+      "success": true,
+      "rows": 3,
+      "columns": 6
+    },
+    "phase2_lunch_df": {
+      "success": true,
+      "rows": 2,
+      "columns": 6
+    },
+    "phase2_prebed_df": {
+      "success": true,
+      "rows": 2,
+      "columns": 6
+    },
+    "phase3_morning_df": {
+      "success": true,
+      "rows": 2,
+      "columns": 6
+    },
+    "phase3_lunch_df": {
+      "success": true,
+      "rows": 2,
+      "columns": 6
+    },
+    "phase3_prebed_df": {
+      "success": true,
+      "rows": 2,
+      "columns": 6
+    },
+    "supplements_df": {
+      "success": true,
+      "rows": 3,
+      "columns": 5
+    }
+  },
+  "total_files": 10,
+  "successful_saves": 10
+}

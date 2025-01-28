@@ -1,0 +1,190 @@
+{
+  "lllt_supplements_df": [
+    {
+      "timestamp": "2025-01-27T06:00:45.207664",
+      "checksum": "8ed0eed56aa30f4508adbebdb6c3773c",
+      "backup_path": "app/data/backups/lllt_supplements_df_20250127_060045.csv",
+      "archive_path": null,
+      "row_count": 3,
+      "column_count": 3
+    }
+  ],
+  "weekly_df": [
+    {
+      "timestamp": "2025-01-27T06:00:45.216383",
+      "checksum": "7324d6a3fbf3730bdad0cab64646c53e",
+      "backup_path": "app/data/backups/weekly_df_20250127_060045.csv",
+      "archive_path": "app/data/archive/weekly_df.csv_20250127_060045",
+      "row_count": 3,
+      "column_count": 5
+    }
+  ],
+  "adjustments_df": [
+    {
+      "timestamp": "2025-01-27T06:00:45.224876",
+      "checksum": "3915954094fcbf9a5efcbf9fb46aede8",
+      "backup_path": "app/data/backups/adjustments_df_20250127_060045.csv",
+      "archive_path": "app/data/archive/adjustments_df.csv_20250127_060045",
+      "row_count": 3,
+      "column_count": 3
+    }
+  ],
+  "mobility_program_df": [
+    {
+      "timestamp": "2025-01-27T06:00:45.230769",
+      "checksum": "b4907ea55a319f5019aade3480ecdde3",
+      "backup_path": "app/data/backups/mobility_program_df_20250127_060045.csv",
+      "archive_path": null,
+      "row_count": 31,
+      "column_count": 5
+    }
+  ],
+  "phase1_morning_df": [
+    {
+      "timestamp": "2025-01-27T07:01:56.180443",
+      "checksum": "1ea38fa98caf9d808c545f18253bd0c7",
+      "backup_path": "app/data/backups/phase1_morning_df_20250127_070156.csv",
+      "archive_path": null,
+      "row_count": 4,
+      "column_count": 6
+    }
+  ],
+  "phase1_lunch_df": [
+    {
+      "timestamp": "2025-01-27T07:01:56.184665",
+      "checksum": "74a8155b84c2316ce595deff6677ed26",
+      "backup_path": "app/data/backups/phase1_lunch_df_20250127_070156.csv",
+      "archive_path": null,
+      "row_count": 3,
+      "column_count": 6
+    }
+  ],
+  "phase1_prebed_df": [
+    {
+      "timestamp": "2025-01-27T07:01:56.188942",
+      "checksum": "967057cbe64e2eb4c0670409b62c821c",
+      "backup_path": "app/data/backups/phase1_prebed_df_20250127_070156.csv",
+      "archive_path": null,
+      "row_count": 2,
+      "column_count": 6
+    }
+  ],
+  "phase2_morning_df": [
+    {
+      "timestamp": "2025-01-27T07:01:56.194489",
+      "checksum": "4fad4c5f14153281ae3ece23413fafd9",
+      "backup_path": "app/data/backups/phase2_morning_df_20250127_070156.csv",
+      "archive_path": null,
+      "row_count": 2,
+      "column_count": 6
+    },
+    {
+      "timestamp": "2025-01-27T07:09:17.220269",
+      "checksum": "df467047a31eb7f41b16673ee2c34397",
+      "backup_path": "/Users/danielfugisawa/Documents/Health/app/data/backups/phase2_morning_df_20250127_070917.csv",
+      "archive_path": "/Users/danielfugisawa/Documents/Health/app/data/archive/phase2_morning_df.csv_20250127_070917",
+      "row_count": 3,
+      "column_count": 6
+    }
+  ],
+  "phase2_lunch_df": [
+    {
+      "timestamp": "2025-01-27T07:01:56.199435",
+      "checksum": "4625e8e853f678cbd1f9c57ebcdeba78",
+      "backup_path": "app/data/backups/phase2_lunch_df_20250127_070156.csv",
+      "archive_path": null,
+      "row_count": 2,
+      "column_count": 6
+    },
+    {
+      "timestamp": "2025-01-27T07:09:17.227261",
+      "checksum": "ecba1ebc1aadd3b32ac9989e7ed21817",
+      "backup_path": "/Users/danielfugisawa/Documents/Health/app/data/backups/phase2_lunch_df_20250127_070917.csv",
+      "archive_path": "/Users/danielfugisawa/Documents/Health/app/data/archive/phase2_lunch_df.csv_20250127_070917",
+      "row_count": 2,
+      "column_count": 6
+    }
+  ],
+  "phase2_prebed_df": [
+    {
+      "timestamp": "2025-01-27T07:01:56.221149",
+      "checksum": "90b5601d146772fbb0248064fd1c7ec8",
+      "backup_path": "app/data/backups/phase2_prebed_df_20250127_070156.csv",
+      "archive_path": null,
+      "row_count": 2,
+      "column_count": 6
+    },
+    {
+      "timestamp": "2025-01-27T07:09:17.234044",
+      "checksum": "945e3bc4b49ee666b4edbe3b5e67d33d",
+      "backup_path": "/Users/danielfugisawa/Documents/Health/app/data/backups/phase2_prebed_df_20250127_070917.csv",
+      "archive_path": "/Users/danielfugisawa/Documents/Health/app/data/archive/phase2_prebed_df.csv_20250127_070917",
+      "row_count": 2,
+      "column_count": 6
+    }
+  ],
+  "phase3_morning_df": [
+    {
+      "timestamp": "2025-01-27T07:01:56.226659",
+      "checksum": "9bef1423a22175522905dee61e6e2662",
+      "backup_path": "app/data/backups/phase3_morning_df_20250127_070156.csv",
+      "archive_path": null,
+      "row_count": 2,
+      "column_count": 6
+    },
+    {
+      "timestamp": "2025-01-27T07:09:17.241634",
+      "checksum": "3b3095ee6bd898901546dcc5ca4d4197",
+      "backup_path": "/Users/danielfugisawa/Documents/Health/app/data/backups/phase3_morning_df_20250127_070917.csv",
+      "archive_path": "/Users/danielfugisawa/Documents/Health/app/data/archive/phase3_morning_df.csv_20250127_070917",
+      "row_count": 2,
+      "column_count": 6
+    }
+  ],
+  "phase3_lunch_df": [
+    {
+      "timestamp": "2025-01-27T07:01:56.230984",
+      "checksum": "8b207709109265be608c66d9c995add8",
+      "backup_path": "app/data/backups/phase3_lunch_df_20250127_070156.csv",
+      "archive_path": null,
+      "row_count": 2,
+      "column_count": 6
+    },
+    {
+      "timestamp": "2025-01-27T07:09:17.248893",
+      "checksum": "979a0cbe564b84047229fc7a582fb0f8",
+      "backup_path": "/Users/danielfugisawa/Documents/Health/app/data/backups/phase3_lunch_df_20250127_070917.csv",
+      "archive_path": "/Users/danielfugisawa/Documents/Health/app/data/archive/phase3_lunch_df.csv_20250127_070917",
+      "row_count": 2,
+      "column_count": 6
+    }
+  ],
+  "phase3_prebed_df": [
+    {
+      "timestamp": "2025-01-27T07:01:56.236518",
+      "checksum": "5c8f3003d30da8e9eb6fe7fd0c77433f",
+      "backup_path": "app/data/backups/phase3_prebed_df_20250127_070156.csv",
+      "archive_path": null,
+      "row_count": 2,
+      "column_count": 6
+    },
+    {
+      "timestamp": "2025-01-27T07:09:17.255722",
+      "checksum": "9c82f53249fac1c9393f8bdea8ef46eb",
+      "backup_path": "/Users/danielfugisawa/Documents/Health/app/data/backups/phase3_prebed_df_20250127_070917.csv",
+      "archive_path": "/Users/danielfugisawa/Documents/Health/app/data/archive/phase3_prebed_df.csv_20250127_070917",
+      "row_count": 2,
+      "column_count": 6
+    }
+  ],
+  "supplements_df": [
+    {
+      "timestamp": "2025-01-27T07:09:17.258606",
+      "checksum": "332987aa7203253aef2fe10a90b3b340",
+      "backup_path": null,
+      "archive_path": null,
+      "row_count": 3,
+      "column_count": 5
+    }
+  ]
+}
