@@ -4,7 +4,7 @@ LLLT Protocol view module.
 import streamlit as st
 from datetime import datetime
 
-from app.data.lllt_data import (
+from app.data import (
     get_lllt_daily_data,
     get_weekly_schedule,
     get_adjustments_data,

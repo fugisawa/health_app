@@ -4,7 +4,7 @@ Mobility Protocol view module.
 import streamlit as st
 from datetime import datetime
 
-from app.data.health import (
+from app.data import (
     get_current_phase,
     get_current_session,
     get_current_exercises

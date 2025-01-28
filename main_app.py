@@ -4,11 +4,10 @@ import pandas as pd
 from datetime import datetime
 
 # Import views
-from app.views.mobility_view import render as render_mobility
-from app.views.lllt_view import render as render_lllt
+from app.views import render_mobility, render_lllt
 
 # Import data functions
-from app.data.health import (
+from app.data import (
     get_current_phase,
     get_current_session,
     get_current_exercises
