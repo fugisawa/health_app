@@ -1093,7 +1093,7 @@ def get_phase3_exercises() -> Dict[str, List[Dict[str, Any]]]:
                 "name": "Kapalabhati Breathwork",
                 "sets_reps": "5 mins",
                 "equipment": "None",
-                "notes": ""Skull-shining breath" to energize and enhance focus for intense sequences."
+                "notes": "'Skull-shining breath' to energize and enhance focus for intense sequences."
             },
             {
                 "name": "Thoracic Release with Lacrosse Ball",
