@@ -14,8 +14,8 @@ A Streamlit application for tracking and managing health protocols, including LL
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
-cd health-protocol
+git clone https://github.com/fugisawa/health_app.git
+cd health_app
 ```
 
 2. Install dependencies:
@@ -53,4 +53,4 @@ The app stores data locally in `~/.health_protocol/`. When deploying:
 
 ## License
 
-MIT License 
+MIT License
