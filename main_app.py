@@ -1,13 +1,20 @@
 import streamlit as st
 import plotly.express as px
 import pandas as pd
+from datetime import datetime
+
+# Import views
 from app.views.mobility_view import render as render_mobility
 from app.views.lllt_view import render as render_lllt
-from data.health import (
+
+# Import data functions
+from app.data.health import (
     get_current_phase,
     get_current_session,
     get_current_exercises
 )
+
+# Import storage utilities
 from app.utils.storage import (
     load_session_progress,
     save_session_progress,
@@ -16,7 +23,6 @@ from app.utils.storage import (
     generate_calendar_events,
     get_completion_stats
 )
-from datetime import datetime
 
 def render_current_session():
     """Render the current session's exercise table."""

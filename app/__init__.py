@@ -1,7 +1,5 @@
-"""Health Protocol Application.
-
-A comprehensive application for tracking and managing health protocols,
-including Light Therapy (LLLT) and Mobility exercises.
+"""
+Health Protocol App package.
 """
 
 __version__ = "0.1.0"
