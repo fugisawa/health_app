@@ -1,10 +1,17 @@
+"""
+Mobility Protocol view module.
+"""
 import streamlit as st
 from datetime import datetime
-from app.components.timer import TimerComponent
-from data.health import (
+
+from app.data.health import (
     get_current_phase,
     get_current_session,
     get_current_exercises
+)
+from app.utils.storage import (
+    load_session_progress,
+    save_session_progress
 )
 
 def render():
@@ -21,7 +28,7 @@ def render():
     
     # Initialize completed exercises in session state if not exists
     if 'completed_exercises' not in st.session_state:
-        st.session_state.completed_exercises = set()
+        st.session_state.completed_exercises = load_session_progress(current_session)
     
     # Session Overview Table
     st.subheader("📋 Session Overview")
@@ -42,8 +49,11 @@ def render():
         is_completed = idx in st.session_state.completed_exercises
         if cols[0].checkbox("Complete", key=f"check_{idx}", value=is_completed, label_visibility="collapsed"):
             st.session_state.completed_exercises.add(idx)
+            save_session_progress(st.session_state.completed_exercises, current_session)
         else:
-            st.session_state.completed_exercises.discard(idx)
+            if idx in st.session_state.completed_exercises:
+                st.session_state.completed_exercises.discard(idx)
+                save_session_progress(st.session_state.completed_exercises, current_session)
         
         # Exercise details columns
         cols[1].markdown(exercise['name'])
@@ -83,22 +93,31 @@ def render():
         
         # Timer for current exercise
         st.subheader("⏱️ Exercise Timer")
-        timer = TimerComponent()
         
         # Parse duration from sets/reps if it contains time
         duration_str = exercise['sets_reps'].lower()
         if "seconds" in duration_str:
-            duration_seconds = int(duration_str.split()[0])
+            duration = int(duration_str.split()[0])
         elif "mins" in duration_str or "minutes" in duration_str:
-            duration_seconds = int(duration_str.split()[0]) * 60
+            duration = int(duration_str.split()[0]) * 60
         else:
-            duration_seconds = 60  # default for rep-based exercises
+            duration = 60  # default for rep-based exercises
         
-        # If timer completes and auto-complete is checked, mark exercise as complete
-        if timer.render(duration_seconds=duration_seconds):
-            if st.session_state.get(f"auto_complete_{selected_exercise}", False):
-                st.session_state.completed_exercises.add(selected_exercise)
-                st.rerun()
+        col1, col2 = st.columns(2)
+        with col1:
+            if 'timer_running' not in st.session_state:
+                st.session_state.timer_running = False
+                st.session_state.time_remaining = duration
+            
+            if st.button('Start/Pause Timer'):
+                st.session_state.timer_running = not st.session_state.timer_running
+            
+            st.write(f"Time Remaining: {st.session_state.time_remaining} seconds")
+        
+        with col2:
+            if st.button('Reset Timer'):
+                st.session_state.time_remaining = duration
+                st.session_state.timer_running = False
     
     # Reset button
     if st.button("🔄 Reset Session"):

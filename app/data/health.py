@@ -7,6 +7,7 @@ from datetime import datetime
 import json
 import hashlib
 import sys
+from typing import Dict, List, Any
 
 class HealthDataProcessor:
     def __init__(self, output_dir=None):
@@ -515,6 +516,88 @@ class HealthDataProcessor:
             json.dump(summary, f, indent=2)
         
         return results
+
+def get_current_phase() -> str:
+    """Get the current phase based on progress."""
+    # TODO: Implement phase progression logic
+    return "Phase 1"
+
+def get_current_session() -> str:
+    """Get the current session based on time of day."""
+    hour = datetime.now().hour
+    
+    if 5 <= hour < 11:
+        return "morning"
+    elif 11 <= hour < 16:
+        return "lunch"
+    else:
+        return "pre_bed"
+
+def get_phase1_exercises() -> Dict[str, List[Dict[str, Any]]]:
+    """Return Phase 1 exercises."""
+    return {
+        "morning": [
+            {
+                "name": "Dynamic Cat-Cow",
+                "sets_reps": "2 mins",
+                "equipment": "None",
+                "notes": "Mobilize spine with breath"
+            },
+            {
+                "name": "Bird Dog",
+                "sets_reps": "3x10 each side",
+                "equipment": "Mat",
+                "notes": "Focus on stability"
+            },
+            {
+                "name": "Glute Bridges",
+                "sets_reps": "3x12",
+                "equipment": "None",
+                "notes": "Squeeze glutes at top"
+            }
+        ],
+        "lunch": [
+            {
+                "name": "Desk Stretches",
+                "sets_reps": "30 secs each",
+                "equipment": "Chair",
+                "notes": "Neck and shoulder focus"
+            },
+            {
+                "name": "Standing Forward Fold",
+                "sets_reps": "60 secs",
+                "equipment": "None",
+                "notes": "Bend knees if needed"
+            }
+        ],
+        "pre_bed": [
+            {
+                "name": "Child's Pose",
+                "sets_reps": "2 mins",
+                "equipment": "Mat",
+                "notes": "Breathe deeply"
+            },
+            {
+                "name": "Supine Twist",
+                "sets_reps": "1 min each side",
+                "equipment": "Mat",
+                "notes": "Keep shoulders down"
+            }
+        ]
+    }
+
+def get_current_exercises() -> List[Dict[str, Any]]:
+    """Get exercises for current phase and session."""
+    phase = get_current_phase()
+    session = get_current_session()
+    
+    # Get exercises based on phase
+    if phase == "Phase 1":
+        exercises = get_phase1_exercises()
+    else:
+        exercises = get_phase1_exercises()  # Default to phase 1 for now
+    
+    return exercises.get(session, [])
 
 def main():
     """Process health data and save to CSV files."""
